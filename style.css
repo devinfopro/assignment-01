@@ -15,6 +15,7 @@ body{
 }
 .half-width{
     width:40%;
+    margin: 3%;
 }
 .half-width img{
     width: 60%;
@@ -23,12 +24,23 @@ body{
 .top-side{
     display: flex;
 }
-.year-color{
+.mid-side{
+    text-align: center;
+    margin-top: 5%;
+}
+#year{
     color: #fcac5d;
 }
-#h1 textpojision{
-    text-align: center;
-}
+
 .textpojision{
     text-align: center;
 }
+
+.phone {
+    float: left;
+    width: 30%;
+    margin-left: 1%;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 40px grey;
+  }
