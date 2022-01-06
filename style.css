@@ -1,7 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    margin-top: 4%;
-    padding-left: 5%;
+    margin-top: 0%;
+    padding-left: 6%;
 }
 #Mission{
     color: #fcac5d;
@@ -14,19 +14,46 @@ body{
     background: linear-gradient(#3D4FF3 0%, #3543BC 100%);
 }
 .half-width{
-    width:40%;
-    margin: 3%;
+    width:50%;
+    
 }
 .half-width img{
-    width: 60%;
-    padding-left: 10%;
+    width: 70%;
+    padding-left: 5%;
+}
+.flexible-container{
+    display: flex;
+    margin: 3%;
 }
 .top-side{
-    display: flex;
-}
+    background-image: url(images/Screenshot_1.png);
+    background-repeat: no-repeat;
+    padding-left: 2%;}
 .mid-side{
     text-align: center;
     margin-top: 5%;
+}
+.down-side1{
+    margin-top: 5%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat:no-repeat;
+    background-position-y: 40%;
+    background-size: 10% 55%;
+}
+.down-side2{
+    margin-top: 6%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat:no-repeat;
+    background-position-y: 280%;
+    background-position-x: 92%;
+    background-size: 25% 85%;
+}
+
+.container{
+    padding-left: 35%;
+}
+#orang-color{
+    color: #fcac5d;
 }
 #year{
     color: #fcac5d;
@@ -44,3 +71,12 @@ body{
     border-radius: 25px;
     box-shadow: 10px 10px 40px grey;
   }
+.apimage{
+    float: left;
+    width: 30%;
+    padding: 5px;
+    border-radius: 25px;
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat:no-repeat;
+    
+}
